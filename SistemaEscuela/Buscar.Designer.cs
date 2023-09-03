@@ -56,62 +56,62 @@
             // 
             // Btelefono
             // 
-            this.Btelefono.Location = new System.Drawing.Point(312, 325);
+            this.Btelefono.Location = new System.Drawing.Point(312, 393);
             this.Btelefono.Name = "Btelefono";
             this.Btelefono.ReadOnly = true;
-            this.Btelefono.Size = new System.Drawing.Size(142, 22);
+            this.Btelefono.Size = new System.Drawing.Size(160, 22);
             this.Btelefono.TabIndex = 32;
             this.Btelefono.Visible = false;
             // 
             // Bcolonia
             // 
-            this.Bcolonia.Location = new System.Drawing.Point(312, 283);
+            this.Bcolonia.Location = new System.Drawing.Point(312, 351);
             this.Bcolonia.Name = "Bcolonia";
             this.Bcolonia.ReadOnly = true;
-            this.Bcolonia.Size = new System.Drawing.Size(142, 22);
+            this.Bcolonia.Size = new System.Drawing.Size(160, 22);
             this.Bcolonia.TabIndex = 31;
             this.Bcolonia.Visible = false;
             // 
             // Bnumero
             // 
-            this.Bnumero.Location = new System.Drawing.Point(312, 242);
+            this.Bnumero.Location = new System.Drawing.Point(312, 310);
             this.Bnumero.Name = "Bnumero";
             this.Bnumero.ReadOnly = true;
-            this.Bnumero.Size = new System.Drawing.Size(142, 22);
+            this.Bnumero.Size = new System.Drawing.Size(160, 22);
             this.Bnumero.TabIndex = 30;
             this.Bnumero.Visible = false;
             // 
             // Bcalle
             // 
-            this.Bcalle.Location = new System.Drawing.Point(312, 202);
+            this.Bcalle.Location = new System.Drawing.Point(312, 270);
             this.Bcalle.Name = "Bcalle";
             this.Bcalle.ReadOnly = true;
-            this.Bcalle.Size = new System.Drawing.Size(142, 22);
+            this.Bcalle.Size = new System.Drawing.Size(160, 22);
             this.Bcalle.TabIndex = 29;
             this.Bcalle.Visible = false;
             // 
             // Bedad
             // 
-            this.Bedad.Location = new System.Drawing.Point(312, 164);
+            this.Bedad.Location = new System.Drawing.Point(312, 232);
             this.Bedad.Name = "Bedad";
             this.Bedad.ReadOnly = true;
-            this.Bedad.Size = new System.Drawing.Size(142, 22);
+            this.Bedad.Size = new System.Drawing.Size(160, 22);
             this.Bedad.TabIndex = 28;
             this.Bedad.Visible = false;
             // 
             // Bname
             // 
-            this.Bname.Location = new System.Drawing.Point(312, 126);
+            this.Bname.Location = new System.Drawing.Point(312, 194);
             this.Bname.Name = "Bname";
             this.Bname.ReadOnly = true;
-            this.Bname.Size = new System.Drawing.Size(142, 22);
+            this.Bname.Size = new System.Drawing.Size(160, 22);
             this.Bname.TabIndex = 27;
             this.Bname.Visible = false;
             // 
             // Sname
             // 
             this.Sname.AutoSize = true;
-            this.Sname.Location = new System.Drawing.Point(168, 126);
+            this.Sname.Location = new System.Drawing.Point(117, 194);
             this.Sname.Name = "Sname";
             this.Sname.Size = new System.Drawing.Size(121, 16);
             this.Sname.TabIndex = 21;
@@ -121,7 +121,7 @@
             // Sedad
             // 
             this.Sedad.AutoSize = true;
-            this.Sedad.Location = new System.Drawing.Point(168, 164);
+            this.Sedad.Location = new System.Drawing.Point(117, 232);
             this.Sedad.Name = "Sedad";
             this.Sedad.Size = new System.Drawing.Size(46, 16);
             this.Sedad.TabIndex = 22;
@@ -131,7 +131,7 @@
             // Scalle
             // 
             this.Scalle.AutoSize = true;
-            this.Scalle.Location = new System.Drawing.Point(168, 202);
+            this.Scalle.Location = new System.Drawing.Point(117, 270);
             this.Scalle.Name = "Scalle";
             this.Scalle.Size = new System.Drawing.Size(44, 16);
             this.Scalle.TabIndex = 23;
@@ -141,7 +141,7 @@
             // Snumero
             // 
             this.Snumero.AutoSize = true;
-            this.Snumero.Location = new System.Drawing.Point(168, 242);
+            this.Snumero.Location = new System.Drawing.Point(117, 310);
             this.Snumero.Name = "Snumero";
             this.Snumero.Size = new System.Drawing.Size(61, 16);
             this.Snumero.TabIndex = 24;
@@ -151,7 +151,7 @@
             // Scolonia
             // 
             this.Scolonia.AutoSize = true;
-            this.Scolonia.Location = new System.Drawing.Point(168, 283);
+            this.Scolonia.Location = new System.Drawing.Point(117, 351);
             this.Scolonia.Name = "Scolonia";
             this.Scolonia.Size = new System.Drawing.Size(59, 16);
             this.Scolonia.TabIndex = 25;
@@ -161,7 +161,7 @@
             // Stelefono
             // 
             this.Stelefono.AutoSize = true;
-            this.Stelefono.Location = new System.Drawing.Point(168, 325);
+            this.Stelefono.Location = new System.Drawing.Point(117, 393);
             this.Stelefono.Name = "Stelefono";
             this.Stelefono.Size = new System.Drawing.Size(67, 16);
             this.Stelefono.TabIndex = 26;
@@ -170,7 +170,7 @@
             // 
             // Search
             // 
-            this.Search.Location = new System.Drawing.Point(275, 27);
+            this.Search.Location = new System.Drawing.Point(353, 30);
             this.Search.Name = "Search";
             this.Search.Size = new System.Drawing.Size(101, 26);
             this.Search.TabIndex = 20;
@@ -180,7 +180,7 @@
             // 
             // BClave
             // 
-            this.BClave.Location = new System.Drawing.Point(146, 29);
+            this.BClave.Location = new System.Drawing.Point(224, 32);
             this.BClave.Name = "BClave";
             this.BClave.Size = new System.Drawing.Size(106, 22);
             this.BClave.TabIndex = 19;
@@ -189,7 +189,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 29);
+            this.label1.Location = new System.Drawing.Point(105, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(102, 18);
             this.label1.TabIndex = 18;
@@ -197,7 +197,7 @@
             // 
             // SearchDocente
             // 
-            this.SearchDocente.Location = new System.Drawing.Point(275, 66);
+            this.SearchDocente.Location = new System.Drawing.Point(353, 69);
             this.SearchDocente.Name = "SearchDocente";
             this.SearchDocente.Size = new System.Drawing.Size(101, 26);
             this.SearchDocente.TabIndex = 35;
@@ -207,7 +207,7 @@
             // 
             // clavedocente
             // 
-            this.clavedocente.Location = new System.Drawing.Point(146, 68);
+            this.clavedocente.Location = new System.Drawing.Point(224, 71);
             this.clavedocente.Name = "clavedocente";
             this.clavedocente.Size = new System.Drawing.Size(106, 22);
             this.clavedocente.TabIndex = 34;
@@ -216,7 +216,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 68);
+            this.label2.Location = new System.Drawing.Point(105, 71);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 18);
             this.label2.TabIndex = 33;
@@ -224,16 +224,17 @@
             // 
             // SearchMateria
             // 
-            this.SearchMateria.Location = new System.Drawing.Point(641, 29);
+            this.SearchMateria.Location = new System.Drawing.Point(353, 106);
             this.SearchMateria.Name = "SearchMateria";
             this.SearchMateria.Size = new System.Drawing.Size(101, 26);
             this.SearchMateria.TabIndex = 38;
             this.SearchMateria.Text = "Buscar";
             this.SearchMateria.UseVisualStyleBackColor = true;
+            this.SearchMateria.Click += new System.EventHandler(this.SearchMateria_Click);
             // 
             // clavemateria
             // 
-            this.clavemateria.Location = new System.Drawing.Point(512, 31);
+            this.clavemateria.Location = new System.Drawing.Point(224, 108);
             this.clavemateria.Name = "clavemateria";
             this.clavemateria.Size = new System.Drawing.Size(106, 22);
             this.clavemateria.TabIndex = 37;
@@ -242,7 +243,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(393, 31);
+            this.label3.Location = new System.Drawing.Point(105, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 18);
             this.label3.TabIndex = 36;
@@ -250,35 +251,36 @@
             // 
             // SearchCoordinador
             // 
-            this.SearchCoordinador.Location = new System.Drawing.Point(661, 66);
+            this.SearchCoordinador.Location = new System.Drawing.Point(393, 142);
             this.SearchCoordinador.Name = "SearchCoordinador";
             this.SearchCoordinador.Size = new System.Drawing.Size(101, 26);
             this.SearchCoordinador.TabIndex = 41;
             this.SearchCoordinador.Text = "Buscar";
             this.SearchCoordinador.UseVisualStyleBackColor = true;
+            this.SearchCoordinador.Click += new System.EventHandler(this.SearchCoordinador_Click);
             // 
             // clavecoordinador
             // 
-            this.clavecoordinador.Location = new System.Drawing.Point(532, 68);
+            this.clavecoordinador.Location = new System.Drawing.Point(264, 144);
             this.clavecoordinador.Name = "clavecoordinador";
-            this.clavecoordinador.Size = new System.Drawing.Size(106, 22);
+            this.clavecoordinador.Size = new System.Drawing.Size(110, 22);
             this.clavecoordinador.TabIndex = 40;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(393, 68);
+            this.label4.Location = new System.Drawing.Point(105, 145);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 18);
+            this.label4.Size = new System.Drawing.Size(146, 18);
             this.label4.TabIndex = 39;
-            this.label4.Text = "Clave coordinador:";
+            this.label4.Text = "Nombre coordinador";
             // 
             // Buscar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(532, 450);
             this.Controls.Add(this.SearchCoordinador);
             this.Controls.Add(this.clavecoordinador);
             this.Controls.Add(this.label4);

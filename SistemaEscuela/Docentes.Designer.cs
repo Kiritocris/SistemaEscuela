@@ -54,7 +54,7 @@
             // 
             this.Dtelefono.Location = new System.Drawing.Point(287, 194);
             this.Dtelefono.Name = "Dtelefono";
-            this.Dtelefono.Size = new System.Drawing.Size(100, 22);
+            this.Dtelefono.Size = new System.Drawing.Size(179, 22);
             this.Dtelefono.TabIndex = 24;
             // 
             // label1
@@ -79,7 +79,7 @@
             // 
             this.Dapellidop.Location = new System.Drawing.Point(285, 156);
             this.Dapellidop.Name = "Dapellidop";
-            this.Dapellidop.Size = new System.Drawing.Size(100, 22);
+            this.Dapellidop.Size = new System.Drawing.Size(179, 22);
             this.Dapellidop.TabIndex = 21;
             // 
             // label3
@@ -95,14 +95,14 @@
             // 
             this.Dapellido.Location = new System.Drawing.Point(285, 118);
             this.Dapellido.Name = "Dapellido";
-            this.Dapellido.Size = new System.Drawing.Size(100, 22);
+            this.Dapellido.Size = new System.Drawing.Size(179, 22);
             this.Dapellido.TabIndex = 20;
             // 
             // Dname
             // 
             this.Dname.Location = new System.Drawing.Point(285, 80);
             this.Dname.Name = "Dname";
-            this.Dname.Size = new System.Drawing.Size(100, 22);
+            this.Dname.Size = new System.Drawing.Size(179, 22);
             this.Dname.TabIndex = 19;
             // 
             // label6

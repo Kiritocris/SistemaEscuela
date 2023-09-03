@@ -138,7 +138,7 @@
             this.Bname.Location = new System.Drawing.Point(255, 129);
             this.Bname.Name = "Bname";
             this.Bname.ReadOnly = true;
-            this.Bname.Size = new System.Drawing.Size(142, 22);
+            this.Bname.Size = new System.Drawing.Size(173, 22);
             this.Bname.TabIndex = 12;
             this.Bname.Visible = false;
             // 
@@ -147,7 +147,7 @@
             this.Bedad.Location = new System.Drawing.Point(255, 167);
             this.Bedad.Name = "Bedad";
             this.Bedad.ReadOnly = true;
-            this.Bedad.Size = new System.Drawing.Size(142, 22);
+            this.Bedad.Size = new System.Drawing.Size(173, 22);
             this.Bedad.TabIndex = 13;
             this.Bedad.Visible = false;
             // 
@@ -156,7 +156,7 @@
             this.Bcalle.Location = new System.Drawing.Point(255, 205);
             this.Bcalle.Name = "Bcalle";
             this.Bcalle.ReadOnly = true;
-            this.Bcalle.Size = new System.Drawing.Size(142, 22);
+            this.Bcalle.Size = new System.Drawing.Size(173, 22);
             this.Bcalle.TabIndex = 14;
             this.Bcalle.Visible = false;
             // 
@@ -165,7 +165,7 @@
             this.Bnumero.Location = new System.Drawing.Point(255, 245);
             this.Bnumero.Name = "Bnumero";
             this.Bnumero.ReadOnly = true;
-            this.Bnumero.Size = new System.Drawing.Size(142, 22);
+            this.Bnumero.Size = new System.Drawing.Size(173, 22);
             this.Bnumero.TabIndex = 15;
             this.Bnumero.Visible = false;
             // 
@@ -174,7 +174,7 @@
             this.Bcolonia.Location = new System.Drawing.Point(255, 286);
             this.Bcolonia.Name = "Bcolonia";
             this.Bcolonia.ReadOnly = true;
-            this.Bcolonia.Size = new System.Drawing.Size(142, 22);
+            this.Bcolonia.Size = new System.Drawing.Size(173, 22);
             this.Bcolonia.TabIndex = 16;
             this.Bcolonia.Visible = false;
             // 
@@ -183,7 +183,7 @@
             this.Btelefono.Location = new System.Drawing.Point(255, 328);
             this.Btelefono.Name = "Btelefono";
             this.Btelefono.ReadOnly = true;
-            this.Btelefono.Size = new System.Drawing.Size(142, 22);
+            this.Btelefono.Size = new System.Drawing.Size(173, 22);
             this.Btelefono.TabIndex = 17;
             this.Btelefono.Visible = false;
             // 

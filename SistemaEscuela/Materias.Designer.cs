@@ -70,7 +70,7 @@
             // 
             this.Dcredito.Location = new System.Drawing.Point(260, 180);
             this.Dcredito.Name = "Dcredito";
-            this.Dcredito.Size = new System.Drawing.Size(138, 22);
+            this.Dcredito.Size = new System.Drawing.Size(173, 22);
             this.Dcredito.TabIndex = 32;
             // 
             // label3
@@ -86,14 +86,14 @@
             // 
             this.Dsemester.Location = new System.Drawing.Point(260, 142);
             this.Dsemester.Name = "Dsemester";
-            this.Dsemester.Size = new System.Drawing.Size(138, 22);
+            this.Dsemester.Size = new System.Drawing.Size(173, 22);
             this.Dsemester.TabIndex = 31;
             // 
             // Dname
             // 
             this.Dname.Location = new System.Drawing.Point(260, 104);
             this.Dname.Name = "Dname";
-            this.Dname.Size = new System.Drawing.Size(138, 22);
+            this.Dname.Size = new System.Drawing.Size(173, 22);
             this.Dname.TabIndex = 30;
             // 
             // Materias

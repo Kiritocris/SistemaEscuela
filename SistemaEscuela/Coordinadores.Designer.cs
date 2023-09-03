@@ -70,7 +70,7 @@
             // 
             this.Cgrade.Location = new System.Drawing.Point(261, 184);
             this.Cgrade.Name = "Cgrade";
-            this.Cgrade.Size = new System.Drawing.Size(138, 22);
+            this.Cgrade.Size = new System.Drawing.Size(205, 22);
             this.Cgrade.TabIndex = 40;
             // 
             // label3
@@ -86,14 +86,14 @@
             // 
             this.Cedad.Location = new System.Drawing.Point(261, 146);
             this.Cedad.Name = "Cedad";
-            this.Cedad.Size = new System.Drawing.Size(138, 22);
+            this.Cedad.Size = new System.Drawing.Size(205, 22);
             this.Cedad.TabIndex = 39;
             // 
             // Cname
             // 
             this.Cname.Location = new System.Drawing.Point(261, 108);
             this.Cname.Name = "Cname";
-            this.Cname.Size = new System.Drawing.Size(138, 22);
+            this.Cname.Size = new System.Drawing.Size(205, 22);
             this.Cname.TabIndex = 38;
             // 
             // Coordinadores

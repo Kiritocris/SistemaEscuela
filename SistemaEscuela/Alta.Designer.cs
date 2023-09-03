@@ -101,42 +101,42 @@
             // 
             this.fullname.Location = new System.Drawing.Point(311, 73);
             this.fullname.Name = "fullname";
-            this.fullname.Size = new System.Drawing.Size(100, 22);
+            this.fullname.Size = new System.Drawing.Size(149, 22);
             this.fullname.TabIndex = 6;
             // 
             // age
             // 
             this.age.Location = new System.Drawing.Point(311, 111);
             this.age.Name = "age";
-            this.age.Size = new System.Drawing.Size(100, 22);
+            this.age.Size = new System.Drawing.Size(149, 22);
             this.age.TabIndex = 7;
             // 
             // street
             // 
             this.street.Location = new System.Drawing.Point(311, 149);
             this.street.Name = "street";
-            this.street.Size = new System.Drawing.Size(100, 22);
+            this.street.Size = new System.Drawing.Size(149, 22);
             this.street.TabIndex = 8;
             // 
             // number
             // 
             this.number.Location = new System.Drawing.Point(311, 189);
             this.number.Name = "number";
-            this.number.Size = new System.Drawing.Size(100, 22);
+            this.number.Size = new System.Drawing.Size(149, 22);
             this.number.TabIndex = 9;
             // 
             // city
             // 
             this.city.Location = new System.Drawing.Point(311, 230);
             this.city.Name = "city";
-            this.city.Size = new System.Drawing.Size(100, 22);
+            this.city.Size = new System.Drawing.Size(149, 22);
             this.city.TabIndex = 10;
             // 
             // phone
             // 
             this.phone.Location = new System.Drawing.Point(311, 272);
             this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(100, 22);
+            this.phone.Size = new System.Drawing.Size(149, 22);
             this.phone.TabIndex = 11;
             // 
             // button1

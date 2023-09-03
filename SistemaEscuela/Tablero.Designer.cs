@@ -54,7 +54,7 @@
             this.btnAlta.Location = new System.Drawing.Point(0, 0);
             this.btnAlta.Name = "btnAlta";
             this.btnAlta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnAlta.Size = new System.Drawing.Size(607, 89);
+            this.btnAlta.Size = new System.Drawing.Size(527, 89);
             this.btnAlta.TabIndex = 0;
             this.btnAlta.Text = "INSCRIBIR";
             // 
@@ -77,7 +77,7 @@
             // 
             this.menubaja.AutoSize = false;
             this.menubaja.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menubaja.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.menubaja.IconChar = FontAwesome.Sharp.IconChar.CircleArrowDown;
             this.menubaja.IconColor = System.Drawing.Color.Black;
             this.menubaja.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menubaja.IconSize = 40;
@@ -137,7 +137,7 @@
             // 
             this.menualumnos.AutoSize = false;
             this.menualumnos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menualumnos.IconChar = FontAwesome.Sharp.IconChar.Globe;
+            this.menualumnos.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
             this.menualumnos.IconColor = System.Drawing.Color.Black;
             this.menualumnos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.menualumnos.IconSize = 40;
@@ -153,7 +153,7 @@
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 89);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(607, 475);
+            this.contenedor.Size = new System.Drawing.Size(527, 475);
             this.contenedor.TabIndex = 1;
             // 
             // Tablero
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(607, 564);
+            this.ClientSize = new System.Drawing.Size(527, 564);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.btnAlta);
             this.MainMenuStrip = this.btnAlta;
