@@ -30,11 +30,11 @@
         {
             this.btnAlta = new System.Windows.Forms.MenuStrip();
             this.menualta = new FontAwesome.Sharp.IconMenuItem();
-            this.menubaja = new FontAwesome.Sharp.IconMenuItem();
             this.menudocentes = new FontAwesome.Sharp.IconMenuItem();
             this.menumaterias = new FontAwesome.Sharp.IconMenuItem();
             this.menucoord = new FontAwesome.Sharp.IconMenuItem();
-            this.menualumnos = new FontAwesome.Sharp.IconMenuItem();
+            this.iconMenuItem1 = new FontAwesome.Sharp.IconMenuItem();
+            this.updatealumnos = new FontAwesome.Sharp.IconMenuItem();
             this.contenedor = new System.Windows.Forms.Panel();
             this.btnAlta.SuspendLayout();
             this.SuspendLayout();
@@ -46,15 +46,15 @@
             this.btnAlta.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.btnAlta.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menualta,
-            this.menubaja,
             this.menudocentes,
             this.menumaterias,
             this.menucoord,
-            this.menualumnos});
+            this.iconMenuItem1,
+            this.updatealumnos});
             this.btnAlta.Location = new System.Drawing.Point(0, 0);
             this.btnAlta.Name = "btnAlta";
             this.btnAlta.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnAlta.Size = new System.Drawing.Size(527, 89);
+            this.btnAlta.Size = new System.Drawing.Size(535, 89);
             this.btnAlta.TabIndex = 0;
             this.btnAlta.Text = "INSCRIBIR";
             // 
@@ -71,22 +71,7 @@
             this.menualta.Size = new System.Drawing.Size(85, 85);
             this.menualta.Text = "Alta";
             this.menualta.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menualta.Click += new System.EventHandler(this.menualta_Click);
-            // 
-            // menubaja
-            // 
-            this.menubaja.AutoSize = false;
-            this.menubaja.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menubaja.IconChar = FontAwesome.Sharp.IconChar.CircleArrowDown;
-            this.menubaja.IconColor = System.Drawing.Color.Black;
-            this.menubaja.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menubaja.IconSize = 40;
-            this.menubaja.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menubaja.Name = "menubaja";
-            this.menubaja.Size = new System.Drawing.Size(85, 85);
-            this.menubaja.Text = "Baja";
-            this.menubaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menubaja.Click += new System.EventHandler(this.menubaja_Click);
+            this.menualta.Click += new System.EventHandler(this.Menualta_Click);
             // 
             // menudocentes
             // 
@@ -101,7 +86,7 @@
             this.menudocentes.Size = new System.Drawing.Size(85, 85);
             this.menudocentes.Text = "Docentes";
             this.menudocentes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menudocentes.Click += new System.EventHandler(this.menudocentes_Click);
+            this.menudocentes.Click += new System.EventHandler(this.Menudocentes_Click);
             // 
             // menumaterias
             // 
@@ -116,7 +101,7 @@
             this.menumaterias.Size = new System.Drawing.Size(85, 85);
             this.menumaterias.Text = "Materias";
             this.menumaterias.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menumaterias.Click += new System.EventHandler(this.menumaterias_Click);
+            this.menumaterias.Click += new System.EventHandler(this.Menumaterias_Click);
             // 
             // menucoord
             // 
@@ -131,29 +116,44 @@
             this.menucoord.Size = new System.Drawing.Size(85, 85);
             this.menucoord.Text = "Coord.";
             this.menucoord.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menucoord.Click += new System.EventHandler(this.menucoord_Click);
+            this.menucoord.Click += new System.EventHandler(this.Menucoord_Click);
             // 
-            // menualumnos
+            // iconMenuItem1
             // 
-            this.menualumnos.AutoSize = false;
-            this.menualumnos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menualumnos.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.menualumnos.IconColor = System.Drawing.Color.Black;
-            this.menualumnos.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menualumnos.IconSize = 40;
-            this.menualumnos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menualumnos.Name = "menualumnos";
-            this.menualumnos.Size = new System.Drawing.Size(90, 85);
-            this.menualumnos.Text = "Buscar";
-            this.menualumnos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menualumnos.Click += new System.EventHandler(this.menualumnos_Click);
+            this.iconMenuItem1.AutoSize = false;
+            this.iconMenuItem1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconMenuItem1.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
+            this.iconMenuItem1.IconColor = System.Drawing.Color.Black;
+            this.iconMenuItem1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconMenuItem1.IconSize = 40;
+            this.iconMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.iconMenuItem1.Name = "iconMenuItem1";
+            this.iconMenuItem1.Size = new System.Drawing.Size(85, 85);
+            this.iconMenuItem1.Text = "Buscar";
+            this.iconMenuItem1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.iconMenuItem1.Click += new System.EventHandler(this.IconMenuItem1_Click);
+            // 
+            // updatealumnos
+            // 
+            this.updatealumnos.AutoSize = false;
+            this.updatealumnos.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updatealumnos.IconChar = FontAwesome.Sharp.IconChar.Repeat;
+            this.updatealumnos.IconColor = System.Drawing.Color.Black;
+            this.updatealumnos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.updatealumnos.IconSize = 40;
+            this.updatealumnos.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.updatealumnos.Name = "updatealumnos";
+            this.updatealumnos.Size = new System.Drawing.Size(90, 85);
+            this.updatealumnos.Text = "Actualizar";
+            this.updatealumnos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.updatealumnos.Click += new System.EventHandler(this.Menualumnos_Click);
             // 
             // contenedor
             // 
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 89);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(527, 475);
+            this.contenedor.Size = new System.Drawing.Size(535, 496);
             this.contenedor.TabIndex = 1;
             // 
             // Tablero
@@ -161,7 +161,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(527, 564);
+            this.ClientSize = new System.Drawing.Size(535, 585);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.btnAlta);
             this.MainMenuStrip = this.btnAlta;
@@ -177,12 +177,12 @@
 
         private System.Windows.Forms.MenuStrip btnAlta;
         private FontAwesome.Sharp.IconMenuItem menualta;
-        private FontAwesome.Sharp.IconMenuItem menubaja;
-        private FontAwesome.Sharp.IconMenuItem menualumnos;
+        private FontAwesome.Sharp.IconMenuItem updatealumnos;
         private FontAwesome.Sharp.IconMenuItem menudocentes;
         private FontAwesome.Sharp.IconMenuItem menumaterias;
         private FontAwesome.Sharp.IconMenuItem menucoord;
         private System.Windows.Forms.Panel contenedor;
+        private FontAwesome.Sharp.IconMenuItem iconMenuItem1;
     }
 }
 

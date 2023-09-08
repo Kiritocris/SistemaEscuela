@@ -47,34 +47,34 @@ namespace SistemaEscuela
         
         }
 
-        private void menualta_Click(object sender, EventArgs e)
+        private void Menualta_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconMenuItem)sender, new Alta());
         }
 
-        private void menubaja_Click(object sender, EventArgs e)
+        private void Menualumnos_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconMenuItem)sender, new Baja());
+            AbrirFormulario((IconMenuItem)sender, new Update());
         }
 
-        private void menualumnos_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario((IconMenuItem)sender, new Buscar());
-        }
-
-        private void menudocentes_Click(object sender, EventArgs e)
+        private void Menudocentes_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconMenuItem)sender, new Docentes());
         }
 
-        private void menumaterias_Click(object sender, EventArgs e)
+        private void Menumaterias_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconMenuItem)sender, new Materias());
         }
 
-        private void menucoord_Click(object sender, EventArgs e)
+        private void Menucoord_Click(object sender, EventArgs e)
         {
             AbrirFormulario((IconMenuItem)sender, new Coordinadores());
+        }
+
+        private void IconMenuItem1_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((IconMenuItem)sender, new Buscar());
         }
     }
 }
